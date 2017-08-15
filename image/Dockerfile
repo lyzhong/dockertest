@@ -9,5 +9,7 @@ COPY  entry.sh /entry.sh
 
 RUN chmod 755 /entry.sh
 
+EXPOSE 80
+
 ENTRYPOINT ["/entry.sh"]
 
